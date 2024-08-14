@@ -60,3 +60,6 @@ Copy code
 ```
 streamlit run app.py
 ```
+# Project Screenshot
+
+![Screenshot 2024-08-15 004637](https://github.com/user-attachments/assets/376a607f-2d6b-4aed-9267-4031a7a655a0)
