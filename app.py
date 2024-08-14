@@ -58,7 +58,7 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat with multiple PDFs",
+    st.set_page_config(page_title="Chat with Ai Dietician",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
 
@@ -67,8 +67,8 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("Clear Your Doubt on your Subject :books:")
-    user_question = st.text_input("Ask a question about your Subject:")
+    st.header("Clear Your Doubt on your Diet :books:")
+    user_question = st.text_input("Ask a question about your Diet and Health:")
     if user_question:
         handle_userinput(user_question)
 
